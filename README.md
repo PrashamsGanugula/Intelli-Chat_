@@ -90,6 +90,13 @@ Welcome to Intelli-Chat! This real-time messaging application is designed to pro
 - **User Authentication**: Enhancing security with two-factor authentication.
 - **Rich Media Messaging**: Supporting multimedia messages including images, videos, and audio.
 
+## Tech Stack
+
+- **Flutter:** For building the user interface.
+- **Firebase:** For real-time messaging, authentication, and data storage.
+- **Firestore:** For storing chat messages and user data.
+- **MLKit (TensorFlow Lite):** For generating smart replies using on-device machine learning.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
@@ -122,10 +129,3 @@ flutter build apk --release
 ```
 You can find the apk in build/app/outputs/flutter-apk folder
 You can refer the following video for more [details](https://youtu.be/TOgfbyw6-Mw)
-
-## Tech Stack
-
-- **Flutter:** For building the user interface.
-- **Firebase:** For real-time messaging, authentication, and data storage.
-- **Firestore:** For storing chat messages and user data.
-- **MLKit (TensorFlow Lite):** For generating smart replies using on-device machine learning.
