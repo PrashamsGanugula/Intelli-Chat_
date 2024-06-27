@@ -15,21 +15,36 @@ Welcome to Intelli-Chat! This real-time messaging application is designed to pro
 
 ## Screens
 
-### Chat Screen
+### Splash Screen
 
-- Real-time messaging interface.
-- Displays message read receipts and last-seen status.
-- Options to delete and edit messages.
+- Initial loading screen with app logo.
+- Transitions to the welcome screen.
+
+### Welcome Screen
+
+- Introduction to the app for first-time users.
+- Navigation to login or registration screens.
+
+### Login Screen
+
+- Google Sign-In for user authentication.
+- Simple and intuitive login interface.
+
+### Registration Screen
+
+- Register new users with email.
+- Collect necessary user information for profile creation.
 
 ### Home Screen
 
 - Overview of recent chats.
 - Navigation to other screens such as profile and settings.
 
-### Login Screen
+### Chat Screen
 
-- Google Sign-In for user authentication.
-- Simple and intuitive login interface.
+- Real-time messaging interface.
+- Displays message read receipts and last-seen status.
+- Options to delete and edit messages.
 
 ### Profile Screen
 
@@ -37,25 +52,10 @@ Welcome to Intelli-Chat! This real-time messaging application is designed to pro
 - Upload profile photos.
 - Display last-seen status and account creation date.
 
-### Registration Screen
-
-- Register new users with email.
-- Collect necessary user information for profile creation.
-
-### Splash Screen
-
-- Initial loading screen with app logo.
-- Transitions to the welcome screen.
-
 ### View Profile Screen
 
 - View other users' profiles.
 - Display user information such as photo, about, and last-seen status.
-
-### Welcome Screen
-
-- Introduction to the app for first-time users.
-- Navigation to login or registration screens.
 
 ## Technical Details
 
