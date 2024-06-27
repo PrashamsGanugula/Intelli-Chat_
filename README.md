@@ -1,6 +1,64 @@
-# Intelli_Chat_
+# Intelli-Chat
 
-Intelli-Chat is a real-time messaging application built using Flutter and Firebase. The app offers a seamless communication experience with features like read status, last seen, and smart reply generation using on-device machine learning.
+## Introduction
+
+Welcome to Intelli-Chat! This real-time messaging application is designed to provide users with a seamless and interactive messaging experience. With features similar to WhatsApp, including read status, last seen, and intelligent response generation, Intelli-Chat is your go-to app for instant communication.
+
+## Features
+
+- **Real-Time Messaging**: Send and receive messages instantly using Firebase.
+- **Google Sign-In**: Easily sign in with your Google account, no need for a separate account or mobile number.
+- **User Profiles**: Create user profiles with photos, a brief description, last-seen status, and account creation date.
+- **Message Read Status**: Know when your messages have been read by the recipient.
+- **Message Deletion and Editing**: Delete and edit your sent messages.
+- **Smart Reply Generation**: Get intelligent reply suggestions using MLKit TensorFlow Lite for on-device machine learning.
+
+## Screens
+
+### Chat Screen
+
+- Real-time messaging interface.
+- Displays message read receipts and last-seen status.
+- Options to delete and edit messages.
+
+### Profile Screen
+
+- View and edit user profiles.
+- Upload profile photos.
+- Display last-seen status and account creation date.
+
+## Technical Details
+
+### Theming
+
+- Utilizes Flutter themes for a cohesive and branded user experience.
+- Custom color palettes using hex codes.
+
+### Navigation
+
+- Implements multi-page navigation using Flutter Routes and Navigator.
+
+### Widgets
+
+- Extensive use of custom Flutter Widgets.
+- GestureDetector Widget for detecting user interactions beyond basic taps.
+
+### Code Architecture
+
+- Refactored and modularized code for better maintainability.
+- Composition over inheritance approach for building custom UI components.
+
+### Performance
+
+- Efficient state management ensuring smooth and responsive UI.
+- On-device machine learning for intelligent reply generation using MLKit TensorFlow Lite.
+
+## Future Plans
+
+- **Enhanced Messaging Features**: Adding voice and video calling capabilities.
+- **Group Chats**: Implementing group chat functionality.
+- **User Authentication**: Enhancing security with two-factor authentication.
+- **Rich Media Messaging**: Supporting multimedia messages including images, videos, and audio.
 
 ## Getting Started
 
@@ -14,8 +72,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-# intelli_chat (Android App)
 
 ## Setting up the project in your local environment💻
 
@@ -36,16 +92,6 @@ flutter build apk --release
 ```
 You can find the apk in build/app/outputs/flutter-apk folder
 You can refer the following video for more [details](https://youtu.be/TOgfbyw6-Mw)
-
-## Features
-
-- **Real-Time Messaging:** Send and receive messages instantly with Firebase Firestore.
-- **Google Sign-In:** Sign in using Google accounts without the need for mobile numbers.
-- **Adding Users:** Add other users to your contact list using their email addresses.
-- **User Profiles:** Simple profiles with photo, about, last-seen status, and account creation date.
-- **Message Read Status:** See if your messages have been read by the recipient.
-- **Message Delete & Edit:** Delete and edit sent messages.
-- **Smart Reply Generation:** Generate intelligent replies based on received messages using on-device ML.
 
 ## Tech Stack
 
